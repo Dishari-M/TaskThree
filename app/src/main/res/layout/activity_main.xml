@@ -10,9 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="dishari.com.taskthree.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+
 
     <Button
         android:text="NEXT"
@@ -21,6 +19,6 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="24dp"
-        android:id="@+id/button"
-        android:onClick="sendMessage"/>
+        android:id="@+id/button"/>
+
 </RelativeLayout>

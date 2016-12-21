@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     private Button button;
-    public final static String EXTRA_MESSAGE = "TASK 3 COMPLETED";
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,8 +29,7 @@ public void onClick(View v)
 {
 
     Intent intent= new Intent (this,SecondActivity.class);
-    String s="Task 3 completed";
-    intent.putExtra(EXTRA_MESSAGE,s);
+
     startActivity(intent);
 
 }
